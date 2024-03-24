@@ -75,7 +75,7 @@ const Favorite = () => {
             }}
           />
         </div>
-        <div className="flex flex-wrap gap-5 items-center justify-center">
+        <div className="flex flex-wrap gap-5 items-center">
           {movies.map((item: any) => {
             return (
               <AppMovieCard cardClass="relative" key={item.id}>

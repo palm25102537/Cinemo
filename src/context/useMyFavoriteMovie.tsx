@@ -24,7 +24,7 @@ const INITIAL_STATE: MyFavMov = {
 function handleMyFavoriteMovie(state: MyFavMov, action: Action) {
   if (action.type === "set") {
     return {
-      favorite: [action.payload.id] ?? [],
+      favorite: [action.payload.id],
     };
   }
 
